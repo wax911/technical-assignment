@@ -5,5 +5,5 @@ plugins {
 }
 
 dependencies {
-	
+	implementation(Libraries.AndroidX.Preference.preferenceKtx)
 }

@@ -1,6 +1,9 @@
 # technical-assignment
 Mobile Developer Technical Assignment 2021
 
+![](./docs/app_ui_mock.png)
+
+> Figma mock above can be found [here](https://www.figma.com/file/ZVu1LFa63JUWC1uZgo6OS5/Optimi?node-id=2%3A31)
 
 ## Project overview
 

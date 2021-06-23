@@ -1,18 +1,18 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.Technicalassignment" parent="Theme.MaterialComponents.DayNight">
+    <style name="Theme.App" parent="Theme.MaterialComponents.DayNight">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/primaryColor</item>
         <item name="colorPrimaryVariant">@color/primaryLightColor</item>
         <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/accentColor</item>
 
         <item name="colorSecondary">@color/secondaryColor</item>
         <item name="colorSecondaryVariant">@color/secondaryLightColor</item>
 
         <item name="android:textColorPrimary">@color/primaryTextColor</item>
         <item name="android:textColorSecondary">@color/secondaryTextColor</item>
-
-        <item name="android:windowLightStatusBar">@bool/is_light_theme_mode</item>
-        <item name="android:windowLightNavigationBar">@bool/is_light_theme_mode</item>
     </style>
+
+    <style name="Theme.App.Default" />
 </resources>

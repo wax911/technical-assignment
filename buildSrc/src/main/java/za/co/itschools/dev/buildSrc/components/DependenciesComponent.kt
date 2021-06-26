@@ -11,7 +11,6 @@ private fun Project.applyFeatureModuleGroupDependencies() {
 
     dependencies.implementation(Libraries.AndroidX.Core.coreKtx)
     dependencies.implementation(Libraries.AndroidX.Work.runtimeKtx)
-    dependencies.implementation(Libraries.AndroidX.Paging.runtimeKtx)
     dependencies.implementation(Libraries.AndroidX.Activity.activityKtx)
     dependencies.implementation(Libraries.AndroidX.Fragment.fragmentKtx)
     dependencies.implementation(Libraries.AndroidX.StartUp.startUpRuntime)
@@ -72,14 +71,10 @@ private fun Project.applyAppModuleGroupDependencies() {
 
             dependencies.implementation(Libraries.AndroidX.Collection.collectionKtx)
             dependencies.implementation(Libraries.AndroidX.Recycler.recyclerView)
-            dependencies.implementation(Libraries.AndroidX.Paging.runtimeKtx)
         }
         Modules.App.Data.id -> {
             dependencies.implementation(project(Modules.App.Domain.path()))
 
-            dependencies.implementation(Libraries.AndroidX.Paging.common)
-            dependencies.implementation(Libraries.AndroidX.Paging.runtime)
-            dependencies.implementation(Libraries.AndroidX.Paging.runtimeKtx)
             dependencies.implementation(Libraries.AndroidX.Room.runtime)
             dependencies.implementation(Libraries.AndroidX.Room.ktx)
             dependencies.kapt(Libraries.AndroidX.Room.compiler)

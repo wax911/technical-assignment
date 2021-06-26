@@ -6,10 +6,10 @@ object Libraries {
 
     const val junit = "junit:junit:${Versions.junit}"
     const val mockk = "io.mockk:mockk:${Versions.mockk}"
+    const val mockkAndroid = "io.mockk:mockk-android:${Versions.mockk}"
 
     const val timber = "com.jakewharton.timber:timber:${Versions.timber}"
 
-    const val elements = "com.otaliastudios:elements:${Versions.elements}"
     const val retrofitSerializer =
         "com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter:${Versions.serializationConverter}"
 
@@ -59,13 +59,6 @@ object Libraries {
             const val liveDataKtx = "androidx.lifecycle:lifecycle-livedata-ktx:$version"
             const val viewModelKtx = "androidx.lifecycle:lifecycle-viewmodel-ktx:$version"
             const val liveDataCoreKtx = "androidx.lifecycle:lifecycle-livedata-core-ktx:$version"
-        }
-
-        object Paging {
-            private const val version = "3.0.0"
-            const val common = "androidx.paging:paging-common-ktx:$version"
-            const val runtime = "androidx.paging:paging-runtime:$version"
-            const val runtimeKtx = "androidx.paging:paging-runtime-ktx:$version"
         }
 
         object Preference {
@@ -214,15 +207,6 @@ object Libraries {
             const val plugin = "org.koin:koin-gradle-plugin:$version"
         }
     }
-
-    object Korlibs {
-
-        object Klock {
-            private const val version = "2.0.7"
-            const val klock = "com.soywiz.korlibs.klock:klock-jvm:$version"
-        }
-    }
-
 
     object Square {
 

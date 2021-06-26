@@ -37,6 +37,5 @@ object Versions {
 
     const val timber = "4.7.1"
     const val serializationConverter = "0.8.0"
-    const val elements = "1.0.1"
     const val ktlint = "0.40.0"
 }

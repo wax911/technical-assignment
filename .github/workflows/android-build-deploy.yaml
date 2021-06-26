@@ -5,14 +5,8 @@ on:
     tags:
       - '*'
 
-permissions:
-  actions: read|write
-  repository-projects: read|write
-
 jobs:
   build:
-    name: Build APK
-    needs: test
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -23,7 +17,7 @@ jobs:
       - name: Fetch tags
         run: git fetch --tags --force
       - name: build APKs
-        run: ./gradlew test build
+        run: ./gradlew build
       - uses: ericcornelissen/git-tag-annotation-action@v1
         id: tag_data
       - uses: marvinpinto/action-automatic-releases@latest

@@ -4,6 +4,12 @@ plugins {
 	id("za.co.itschools.dev.plugin")
 }
 
+android {
+	buildFeatures {
+		viewBinding = true
+	}
+}
+
 dependencies {
 	
 }

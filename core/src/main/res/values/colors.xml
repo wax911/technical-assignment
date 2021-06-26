@@ -1,12 +1,55 @@
 <!--?xml version="1.0" encoding="UTF-8"?-->
 <resources>
-    <color name="primaryColor">#f9f9f9</color>
-    <color name="primaryLightColor">#ffffff</color>
-    <color name="primaryDarkColor">#c6c6c6</color>
-    <color name="secondaryColor">#546e7a</color>
-    <color name="secondaryLightColor">#819ca9</color>
-    <color name="secondaryDarkColor">#29434e</color>
-    <color name="primaryTextColor">#000000</color>
-    <color name="secondaryTextColor">#ffffff</color>
-    <color name="accentColor">#1BB55C</color>
+    <!-- Material X Light Colors -->
+    <color name="primaryColor">#FAFAFA</color>
+    <color name="primaryLightColor">#FBFBFB</color>
+    <color name="primaryDarkColor">#AFAFAF</color>
+
+    <color name="secondaryColor">#263238</color>
+    <color name="secondaryLightColor">#515B5F</color>
+    <color name="secondaryDarkColor">#1A2327</color>
+
+    <color name="primaryTextColor">#424242</color>
+    <color name="secondaryTextColor">#757575</color>
+
+    <color name="colorPrimary">@color/primaryColor</color>
+    <color name="colorPrimaryDark">@color/primaryDarkColor</color>
+    <color name="colorPrimaryVariant">@color/primaryLightColor</color>
+    <color name="colorSecondary">@color/secondaryColor</color>
+    <color name="colorSecondaryVariant">@color/secondaryLightColor</color>
+
+    <color name="colorBackground">#FAFAFA</color>
+    <color name="colorSurface">#ffffff</color>
+
+    <color name="colorError">#F44336</color>
+    <color name="colorErrorVariant">#E57373</color>
+    <color name="colorErrorDark">#D32F2F</color>
+
+    <color name="colorWarning">#FF9800</color>
+    <color name="colorWarningVariant">#FFB74D</color>
+    <color name="colorWarningDark">#F57C00</color>
+
+    <color name="colorInfo">#2196F3</color>
+    <color name="colorInfoVariant">#4DABF5</color>
+    <color name="colorInfoDark">#1769AA</color>
+
+    <color name="colorSuccess">#4CAF50</color>
+    <color name="colorSuccessVariant">#81C784</color>
+    <color name="colorSuccessDark">#388E3C</color>
+
+    <color name="colorOnPrimary">#424242</color>
+    <color name="colorOnSecondary">#ffffff</color>
+    <color name="colorOnBackground">#000000</color>
+    <color name="colorOnSurface">#000000</color>
+    <color name="colorOnError">#ffffff</color>
+
+    <!-- State Light -->
+
+    <color name="colorStateRed">#E61919</color>
+    <color name="colorStateOrange">#F57C00</color>
+    <color name="colorStateYellow">#FBC02D</color>
+    <color name="colorStateBlue">#1976D2</color>
+    <color name="colorStateGreen">#388E3C</color>
+
+    <color name="colorAccent">#1BB55C</color>
 </resources>

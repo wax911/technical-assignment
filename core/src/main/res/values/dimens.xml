@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="size_18">18dp</dimen>
+    <dimen name="size_26">26dp</dimen>
+    <dimen name="size_32">32dp</dimen>
+    <dimen name="size_48">48dp</dimen>
+    <dimen name="size_52">52dp</dimen>
+    <dimen name="size_64">64dp</dimen>
+
+    <!-- margins -->
+    <dimen name="xl_margin">16dp</dimen>
+    <dimen name="mg_margin">12dp</dimen>
+    <dimen name="lg_margin">8dp</dimen>
+    <dimen name="md_margin">4dp</dimen>
+    <dimen name="sm_margin">2dp</dimen>
+    <dimen name="xs_margin">1dp</dimen>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<za.co.itschools.dev.core.widget.StateLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/stateLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/login_header" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/xl_margin" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/inputUserNameLayout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/size_26"
+                android:layout_marginEnd="@dimen/size_26"
+                android:hint="@string/hint_label_username"
+                app:boxStrokeColor="?colorAccent"
+                app:hintTextColor="?colorOnSurface">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/inputUserName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="textEmailAddress|text"
+                    android:singleLine="true"
+                    tools:text="John"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/xl_margin" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/inputPasswordLayout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/size_26"
+                android:layout_marginEnd="@dimen/size_26"
+                android:hint="@string/hint_label_password"
+                app:boxStrokeColor="?colorAccent"
+                app:hintTextColor="?colorOnSurface"
+                app:passwordToggleEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/inputPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    tools:text="Doe"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/loginButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/xl_margin"
+                android:maxLines="1"
+                android:text="@string/label_login"
+                android:textColor="@android:color/white"
+                app:backgroundTint="?colorAccent"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.core.widget.NestedScrollView>
+
+</za.co.itschools.dev.core.widget.StateLayout>

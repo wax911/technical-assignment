@@ -28,7 +28,8 @@ class EnrolmentContent(
      * This is called when the fragment reaches it's [onResume] state
      */
     override fun onFetchDataInitialize() {
-        viewModel()
+        if (contentAdapter.itemCount < 1)
+            viewModel()
     }
 
     /**

@@ -1,8 +1,7 @@
 # technical-assignment
 Mobile Developer Technical Assignment 2021
 
-[![Android unit test task](https://github.com/wax911/technical-assignment/actions/workflows/android-unit-test.yaml/badge.svg?branch=develop)](https://github.com/wax911/technical-assignment/actions/workflows/android-unit-test.yaml)
-
+[![Android unit test task](https://github.com/wax911/technical-assignment/actions/workflows/android-unit-test.yaml/badge.svg?branch=develop)](https://github.com/wax911/technical-assignment/actions/workflows/android-unit-test.yaml) &nbsp; [![Android build and deploy task](https://github.com/wax911/technical-assignment/actions/workflows/android-build-deploy.yaml/badge.svg?branch=1.0.0)](https://github.com/wax911/technical-assignment/actions/workflows/android-build-deploy.yaml)
 ![](./docs/app_ui_mock.png)
 
 > Figma mock that I created for the UI I wanted can be found [here](https://www.figma.com/file/ZVu1LFa63JUWC1uZgo6OS5/Optimi?node-id=2%3A31)

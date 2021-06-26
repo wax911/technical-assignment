@@ -76,7 +76,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="@dimen/size_26"
+                android:layout_marginTop="@dimen/xl_margin"
                 android:maxLines="1"
                 android:text="@string/label_login"
                 android:textColor="@android:color/white"

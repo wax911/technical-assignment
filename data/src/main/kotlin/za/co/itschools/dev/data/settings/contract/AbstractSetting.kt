@@ -1,7 +1,10 @@
 package za.co.itschools.dev.data.settings.contract
 
 import android.content.SharedPreferences
+import kotlinx.coroutines.channels.awaitClose
+import kotlinx.coroutines.channels.sendBlocking
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.callbackFlow
 
 /**
  * An abstraction of a setting that is both observable and stateful
@@ -27,5 +30,14 @@ abstract class AbstractSetting<T>(
     /**
      * Readonly observable to listen for changes for the setting
      */
-    abstract val flow: Flow<T>
+    val flow: Flow<T> by lazy(LazyThreadSafetyMode.NONE) {
+        callbackFlow {
+            val listener = SharedPreferences.OnSharedPreferenceChangeListener { _, id ->
+                if (id == identifier)
+                    sendBlocking(value)
+            }
+            preference.registerOnSharedPreferenceChangeListener(listener)
+            awaitClose { preference.unregisterOnSharedPreferenceChangeListener(listener) }
+        }
+    }
 }

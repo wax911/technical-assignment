@@ -7,4 +7,5 @@ import za.co.itschools.dev.data.settings.contract.AbstractSetting
  */
 interface IAuthenticationSetting {
     val isAuthenticated: AbstractSetting<Boolean>
+    val userId: AbstractSetting<Long>
 }

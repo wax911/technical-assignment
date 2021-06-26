@@ -1,13 +1,15 @@
 # technical-assignment
 Mobile Developer Technical Assignment 2021
 
+[![Android unit test task](https://github.com/wax911/technical-assignment/actions/workflows/android-unit-test.yaml/badge.svg?branch=develop)](https://github.com/wax911/technical-assignment/actions/workflows/android-unit-test.yaml)
+
 ![](./docs/app_ui_mock.png)
 
-> Figma mock above can be found [here](https://www.figma.com/file/ZVu1LFa63JUWC1uZgo6OS5/Optimi?node-id=2%3A31)
+> Figma mock that I created for the UI I wanted can be found [here](https://www.figma.com/file/ZVu1LFa63JUWC1uZgo6OS5/Optimi?node-id=2%3A31)
 
 ## Project overview
 
-The project is broken down into the following high level modules/compoents which facilitate common or similar functionality, this is done for the simple reason to allow easier colaboration and matainability which would be otherwise challenging if the `app` module houses all the layers
+The project is broken down into the following high level modules/components which facilitate common or similar functionality, this is done for the simple reason to allow easier collaboration and maintainability which would be otherwise challenging if the `app` module houses all the layers
 
 ![](./docs/high_level_structure.png)
 

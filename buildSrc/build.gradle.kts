@@ -12,7 +12,7 @@ repositories {
 }
 
 val kotlinVersion = "1.4.32"
-val buildToolsVersion = "4.2.1"
+val buildToolsVersion = "4.2.2"
 val spotlessVersion = "5.12.1"
 
 dependencies {
